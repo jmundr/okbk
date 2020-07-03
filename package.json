@@ -1,0 +1,33 @@
+{
+  "name": "BGSBot",
+  "version": "1.0.0",
+  "description": "The bot for bgs.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "date-and-time": "^0.12.0",
+    "dateformat": "^3.0.3",
+    "discord.js": "^11.5.1",
+    "express": "^4.16.4",
+    "express-glitch-keepalive": "^0.2.0",
+    "fs": "^0.0.2",
+    "fs-nextra": "^0.4.7",
+    "humanize-duration": "^3.23.1",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "mongoose": "^5.9.20",
+    "ms": "^2.1.2",
+    "noblox.js": "^4.6.1",
+    "node-opus": "^0.3.3",
+    "overwatch-stats-api": "^2.1.0",
+    "parse-ms": "^2.1.0",
+    "relevant-urban": "^2.0.0",
+    "snekfetch": "^4.0.4",
+    "weather-js": "^2.0.0",
+    "ytdl-core": "^1.0.7"
+  },
+  "license": "ISC",
+  "keywords": []
+}
