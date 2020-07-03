@@ -1,7 +1,5 @@
 const ownerID = '336911762890817537';
 
-const keepalive = require("express-glitch-keepalive");
-
 const https = require("https");
 
 const fs = require("fs");
@@ -28,9 +26,6 @@ let ops = {
 const http = require('http');
 const express = require('express');
 const app = express();
-
-app.use(keepalive);
-
 app.use(express.static('public'));
 
 app.get("/", (request, response) => {
